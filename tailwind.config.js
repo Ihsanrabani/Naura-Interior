@@ -5,18 +5,27 @@ export default {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#EA6522",
-          light: "#F47A35",
-          dark: "#D55A15",
+          DEFAULT: "#7A5C45",
+          light: "#9A7560",
+          dark: "#5E4535",
+        },
+        secondary: {
+          DEFAULT: "#EFE7DD",
+          dark: "#DDD0C4",
+        },
+        accent: {
+          DEFAULT: "#C7A17A",
+          light: "#D8B899",
+          dark: "#A8855E",
         },
         dark: {
           DEFAULT: "#222222",
-          light: "#333333",
-          lighter: "#444444",
+          light: "#444444",
+          lighter: "#666666",
         },
         light: {
-          DEFAULT: "#F5F5F5",
-          dark: "#E8E8E8",
+          DEFAULT: "#EFE7DD",
+          dark: "#DDD0C4",
         },
       },
       fontFamily: {
@@ -55,7 +64,7 @@ export default {
       },
       backgroundImage: {
         "hero-pattern":
-          "linear-gradient(135deg, rgba(34,34,34,0.92) 0%, rgba(34,34,34,0.75) 50%, rgba(234,101,34,0.3) 100%)",
+          "linear-gradient(135deg, rgba(34,34,34,0.92) 0%, rgba(34,34,34,0.75) 50%, rgba(122,92,69,0.3) 100%)",
       },
     },
   },

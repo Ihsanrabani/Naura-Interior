@@ -23,7 +23,7 @@ export default function FAQ() {
                     <div className="bg-dark p-12 text-center relative overflow-hidden">
                         <div className="absolute inset-0 opacity-5"
                             style={{
-                                backgroundImage: `radial-gradient(circle at 2px 2px, #EA6522 1px, transparent 0)`,
+                                backgroundImage: `radial-gradient(circle at 2px 2px, #7A5C45 1px, transparent 0)`,
                                 backgroundSize: '30px 30px',
                             }}
                         />

@@ -60,14 +60,14 @@
 
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(135deg, #7a5c45, #9a7560);
+    background: linear-gradient(135deg, #7a5c45, #c7a17a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
   .bg-gradient-primary {
-    background: linear-gradient(135deg, #ea6522 0%, #d55a15 100%);
+    background: linear-gradient(135deg, #7a5c45 0%, #5e4535 100%);
   }
 
   .clip-diagonal {
@@ -84,14 +84,14 @@
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #f5f5f5;
+  background: #efe7dd;
 }
 ::-webkit-scrollbar-thumb {
-  background: #ea6522;
+  background: #7a5c45;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #d55a15;
+  background: #5e4535;
 }
 
 /* Smooth reveal animation */

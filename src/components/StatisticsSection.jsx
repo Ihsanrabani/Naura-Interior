@@ -43,8 +43,8 @@ export default function StatisticsSection() {
                 style={{
                     backgroundImage: `repeating-linear-gradient(
             45deg,
-            #EA6522,
-            #EA6522 1px,
+            #7A5C45,
+            #7A5C45 1px,
             transparent 1px,
             transparent 60px
           )`,
