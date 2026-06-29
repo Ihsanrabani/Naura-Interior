@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#7A5C45"/>
+
+  <!-- Arch -->
+  <path d="M12 50 L12 28 Q12 14 32 14 Q52 14 52 28 L52 50" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- N left vertical -->
+  <line x1="18" y1="24" x2="18" y2="50" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <!-- N diagonal -->
+  <line x1="18" y1="24" x2="38" y2="46" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <!-- N right vertical -->
+  <line x1="38" y1="24" x2="38" y2="50" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Chair seat -->
+  <rect x="24" y="40" width="14" height="2.5" rx="0.8" fill="#ffffff"/>
+  <!-- Chair back -->
+  <rect x="24" y="32" width="14" height="2" rx="0.8" fill="#ffffff"/>
+  <!-- Chair back post -->
+  <rect x="35" y="32" width="2" height="8" rx="0.8" fill="#ffffff"/>
+  <!-- Chair legs -->
+  <line x1="27" y1="42.5" x2="27" y2="50" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <line x1="36" y1="42.5" x2="36" y2="50" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Leaf left -->
+  <path d="M38 26 Q34 16 38 12 Q44 16 38 26Z" stroke="#ffffff" stroke-width="2" fill="none"/>
+  <!-- Leaf right -->
+  <path d="M38 26 Q44 14 50 16 Q48 24 38 26Z" stroke="#ffffff" stroke-width="2" fill="none"/>
+  <!-- Leaf stem -->
+  <line x1="38" y1="26" x2="42" y2="12" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

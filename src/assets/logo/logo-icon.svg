@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 110" width="100" height="110">
+  <defs>
+    <linearGradient id="metalA2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8e8e8" />
+      <stop offset="30%" style="stop-color:#ffffff" />
+      <stop offset="60%" style="stop-color:#b0b0b0" />
+      <stop offset="100%" style="stop-color:#888888" />
+    </linearGradient>
+    <linearGradient id="metalAInner2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#585858" />
+      <stop offset="100%" style="stop-color:#303030" />
+    </linearGradient>
+    <linearGradient id="arrowGrad2" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#c94a10" />
+      <stop offset="50%" style="stop-color:#EA6522" />
+      <stop offset="100%" style="stop-color:#ff8c4a" />
+    </linearGradient>
+    <filter id="shadow2">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="glow2">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#EA6522" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- A outer -->
+  <g filter="url(#shadow2)">
+    <polygon points="50,8 28,90 38,90 52,28" fill="url(#metalA2)" />
+    <polygon points="50,8 72,90 62,90 48,28" fill="url(#metalA2)" />
+    <polygon points="32,58 68,58 66,68 34,68" fill="url(#metalA2)" />
+    <!-- inner bevel -->
+    <polygon points="50,12 32,88 36,88 50,32" fill="url(#metalAInner2)" opacity="0.55"/>
+    <polygon points="50,12 68,88 64,88 50,32" fill="url(#metalAInner2)" opacity="0.55"/>
+    <polygon points="35,61 65,61 63,66 37,66" fill="url(#metalAInner2)" opacity="0.4"/>
+  </g>
+
+  <!-- Arrow -->
+  <g filter="url(#glow2)">
+    <rect x="47" y="24" width="6" height="70" fill="url(#arrowGrad2)" />
+    <polygon points="50,2 41,26 59,26" fill="url(#arrowGrad2)" />
+    <!-- chevron tail -->
+    <polygon points="43,92 50,102 57,92 53,92 50,99 47,92" fill="url(#arrowGrad2)" />
+  </g>
+</svg>

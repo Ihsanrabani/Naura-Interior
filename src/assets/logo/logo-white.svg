@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="metalAW" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="40%" style="stop-color:#e0e0e0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#aaaaaa;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="arrowGradW" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#c94a10" />
+      <stop offset="50%" style="stop-color:#EA6522" />
+      <stop offset="100%" style="stop-color:#ff8c4a" />
+    </linearGradient>
+    <filter id="glowW">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#EA6522" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- A shape -->
+  <polygon points="200,48 155,230 175,230 210,85" fill="url(#metalAW)" />
+  <polygon points="200,48 245,230 225,230 190,85" fill="url(#metalAW)" />
+  <rect x="168" y="165" width="64" height="18" fill="url(#metalAW)"/>
+
+  <!-- Arrow -->
+  <g filter="url(#glowW)">
+    <rect x="195" y="80" width="10" height="168" fill="url(#arrowGradW)" />
+    <polygon points="200,30 183,72 217,72" fill="url(#arrowGradW)" />
+    <polygon points="188,240 200,256 212,240 206,240 200,250 194,240" fill="url(#arrowGradW)" />
+    <polygon points="188,254 200,270 212,254 206,254 200,264 194,254" fill="url(#arrowGradW)" />
+  </g>
+
+  <!-- AMANAH -->
+  <text x="200" y="310" font-family="Montserrat, Arial, sans-serif" font-size="42" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="4">AMANAH</text>
+  <!-- CIPTA RUANG -->
+  <text x="200" y="348" font-family="Montserrat, Arial, sans-serif" font-size="28" font-weight="500" fill="#cccccc" text-anchor="middle" letter-spacing="6">CIPTA RUANG</text>
+  <!-- Tagline -->
+  <text x="200" y="376" font-family="'Times New Roman', Georgia, serif" font-size="14" font-style="italic" fill="#999999" text-anchor="middle" letter-spacing="1">Architectural Renovation &amp; Interior</text>
+</svg>
