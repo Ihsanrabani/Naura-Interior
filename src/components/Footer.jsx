@@ -117,11 +117,11 @@ export default function Footer() {
                         <ul className="space-y-4">
                             <li>
                                 <a
-                                    href="tel:+6281234567890"
+                                    href="tel:+6281323244573"
                                     className="flex items-start gap-3 text-white/60 hover:text-primary transition-colors duration-300 text-sm group"
                                 >
                                     <Phone size={16} className="mt-0.5 flex-shrink-0 group-hover:text-primary" />
-                                    <span>+62 812-3456-7890</span>
+                                    <span>+62 813-2324-4573</span>
                                 </a>
                             </li>
                             <li>
@@ -136,7 +136,7 @@ export default function Footer() {
                             <li>
                                 <div className="flex items-start gap-3 text-white/60 text-sm">
                                     <MapPin size={16} className="mt-0.5 flex-shrink-0" />
-                                    <span>Jl. Kemang Raya No. 88<br />Jakarta Selatan, 12730</span>
+                                    <span>SPBU Coco 3146102 Jl.R.E Martadinata Panyingkiran jati Kota Tasikmalaya, Jawa Barat</span>
                                 </div>
                             </li>
                         </ul>

@@ -116,7 +116,7 @@ export default function Process() {
                             <ArrowRight size={16} />
                         </a>
                         <a
-                            href="https://wa.me/6281234567890"
+                            href="https://wa.me/6281323244573"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="btn-outline"

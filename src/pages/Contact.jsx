@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Phone, Mail, MapPin, Clock, MessageCircle, Send, CheckCircle } from 'lucide-react'
 import PageHero from '../components/PageHero'
 
-const WA_NUMBER = '6281234567890'
+const WA_NUMBER = '6281323244573'
 
 const serviceOptions = [
     'Konstruksi Bangunan',
@@ -49,8 +49,8 @@ export default function Contact() {
         {
             icon: <Phone size={20} />,
             title: 'Telepon / WhatsApp',
-            lines: ['+62 812-3456-7890', '+62 821-9876-5432'],
-            action: { label: 'Hubungi Sekarang', href: 'tel:+6281234567890' },
+            lines: ['+62 813-2324-4573'],
+            action: { label: 'Hubungi Sekarang', href: 'tel:+6281323244573' },
         },
         {
             icon: <Mail size={20} />,
@@ -61,8 +61,8 @@ export default function Contact() {
         {
             icon: <MapPin size={20} />,
             title: 'Kantor Kami',
-            lines: ['Jl. Kemang Raya No. 88', 'Jakarta Selatan, 12730'],
-            action: { label: 'Lihat di Maps', href: 'https://maps.google.com' },
+            lines: ['SPBU Coco 3146102 Jl.R.E Martadinata', 'Panyingkiran Jati, Kota Tasikmalaya, Jawa Barat'],
+            action: { label: 'Lihat di Maps', href: 'https://maps.app.goo.gl/CHkQiiv5vPti27L96' },
         },
         {
             icon: <Clock size={20} />,
@@ -285,9 +285,9 @@ export default function Contact() {
                     <div className="bg-dark/90 text-white px-8 py-6 text-center">
                         <MapPin size={28} className="text-primary mx-auto mb-3" />
                         <div className="font-display font-bold text-lg">Naura Interior Design</div>
-                        <div className="text-white/60 text-sm mt-1">Bekasi, Jawa Barat</div>
+                        <div className="text-white/60 text-sm mt-1">Panyingkiran Jati, Kota Tasikmalaya</div>
                         <a
-                            href="https://maps.google.com"
+                            href="https://maps.app.goo.gl/CHkQiiv5vPti27L96"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-primary text-sm font-semibold mt-2 inline-block hover:underline"

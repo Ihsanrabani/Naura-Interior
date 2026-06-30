@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, Phone, MessageCircle } from 'lucide-react'
 
-const WA_NUMBER = '6281234567890'
+const WA_NUMBER = '6281323244573'
 const WA_MESSAGE = encodeURIComponent('Halo Naura Interior Design, saya ingin berkonsultasi mengenai proyek saya.')
 
 export default function CTASection() {
@@ -54,7 +54,7 @@ export default function CTASection() {
                         </a>
 
                         <a
-                            href="tel:+6281234567890"
+                            href="tel:+6281323244573"
                             className="btn-secondary group"
                         >
                             <Phone size={18} />

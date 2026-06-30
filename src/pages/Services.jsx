@@ -6,7 +6,7 @@ import CTASection from '../components/CTASection'
 import SectionHeader from '../components/SectionHeader'
 import { services } from '../data/portfolioData'
 
-const WA_NUMBER = '6281234567890'
+const WA_NUMBER = '6281323244573'
 
 export default function Services() {
     return (

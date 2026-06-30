@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-const WA_NUMBER = '6281234567890'
+const WA_NUMBER = '6281323244573'
 const WA_MESSAGE = encodeURIComponent('Halo Naura Interior Design, saya ingin berkonsultasi mengenai proyek saya.')
 
 export default function WhatsAppButton() {

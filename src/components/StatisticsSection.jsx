@@ -64,7 +64,7 @@ export default function StatisticsSection() {
                             <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-500" />
 
                             <div className="relative">
-                                <div className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-primary mb-2">
+                                <div className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-secondary mb-2">
                                     <AnimatedCounter target={stat.value} suffix={stat.suffix} />
                                 </div>
                                 <div className="text-white/60 text-sm uppercase tracking-widest font-medium">

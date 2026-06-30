@@ -5,7 +5,7 @@ import { portfolioData } from '../data/portfolioData'
 import CTASection from '../components/CTASection'
 import PortfolioSection from '../components/PortfolioSection'
 
-const WA_NUMBER = '6281234567890'
+const WA_NUMBER = '6281323244573'
 
 function BeforeAfterSlider({ before, after }) {
     const [position, setPosition] = useState(50)
@@ -35,17 +35,17 @@ function BeforeAfterSlider({ before, after }) {
             />
 
             {/* Slider line */}
-                <div
-                    className="absolute top-0 bottom-0 w-0.5 bg-white shadow-xl"
-                    style={{ left: `${position}%` }}
-                >
-                    <div className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-10 h-10 bg-white rounded-full shadow-xl flex items-center justify-center">
-                        <div className="flex items-center gap-0.5">
-                            <ChevronLeft size={10} className="text-dark" />
-                            <ChevronRight size={10} className="text-dark" />
-                        </div>
+            <div
+                className="absolute top-0 bottom-0 w-0.5 bg-white shadow-xl"
+                style={{ left: `${position}%` }}
+            >
+                <div className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-10 h-10 bg-white rounded-full shadow-xl flex items-center justify-center">
+                    <div className="flex items-center gap-0.5">
+                        <ChevronLeft size={10} className="text-dark" />
+                        <ChevronRight size={10} className="text-dark" />
                     </div>
                 </div>
+            </div>
 
             {/* Labels */}
             <div className="absolute bottom-4 left-4 bg-dark/80 text-white text-xs px-2 py-1">Sebelum</div>

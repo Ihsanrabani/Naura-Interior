@@ -38,7 +38,7 @@ export default function ProcessSection({ compact = false }) {
                                 <div className="relative inline-flex items-center justify-center w-20 h-20 mb-6">
                                     <div className="absolute inset-0 bg-dark border border-white/20 group-hover:border-primary/50 transition-colors duration-500" />
                                     <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/10 transition-colors duration-500" />
-                                    <span className="relative text-2xl font-display font-bold text-primary">{step.step}</span>
+                                    <span className="relative text-2xl font-display font-bold text-secondary">{step.step}</span>
                                 </div>
 
                                 {/* Arrow connector */}

@@ -36,7 +36,7 @@ export default function FAQ() {
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <a
-                                    href="https://wa.me/6281234567890?text=Halo%2C%20saya%20punya%20pertanyaan%20mengenai%20layanan%20Naura%20Interior%20Design."
+                                    href="https://wa.me/6281323244573?text=Halo%2C%20saya%20punya%20pertanyaan%20mengenai%20layanan%20Naura%20Interior%20Design."
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="btn-primary"
