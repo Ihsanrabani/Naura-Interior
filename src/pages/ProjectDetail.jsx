@@ -27,7 +27,16 @@ function BeforeAfterSlider({ before, after }) {
 
             {/* Before (clipped) */}
             <div className="absolute inset-0 overflow-hidden" style={{ width: `${position}%` }}>
-                <img src={before} alt="Sebelum" className="w-full h-full object-cover" style={{ minWidth: '100vw', maxWidth: 'none' }} />
+                {/* <img src={before} alt="Sebelum" className="absolute inset-0 w-full h-full object-cover object-center" />s */}
+                <div
+                    className="absolute inset-0 w-[50vw]"
+                    style={{
+                        width: '50vw', // atau pakai ukuran container
+                        backgroundImage: `url(${before})`,
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                    }}
+                />
             </div>
 
             {/* Slider line */}

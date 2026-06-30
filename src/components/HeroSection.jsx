@@ -5,19 +5,16 @@ import { ArrowRight, Play, ChevronDown } from 'lucide-react'
 const slides = [
     {
         image: '/images/NI9.jpeg',
-        tag: 'Kitchen Set Custom',
         title: 'Dapur Impian\ndari Tangan Kami',
         subtitle: 'Kami merancang kitchen set yang fungsional, estetis, dan tahan lama—disesuaikan persis dengan kebutuhan dapur Anda.',
     },
     {
         image: '/images/NI10.jpeg',
-        tag: 'Desain Interior',
         title: 'Ruang yang Bercerita\ntentang Anda',
         subtitle: 'Setiap detail dirancang dengan presisi untuk menciptakan harmoni sempurna antara estetika dan fungsi.',
     },
     {
         image: '/images/NI6.jpeg',
-        tag: 'Furniture Custom',
         title: 'Furnitur Unik\nSesuai Selera Anda',
         subtitle: 'Dari TV cabinet hingga wardrobe—kami buat sesuai ukuran, desain, dan karakter ruang Anda.',
     },
@@ -58,22 +55,12 @@ export default function HeroSection() {
             ))}
 
             {/* Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-r from-dark/95 via-dark/75 to-transparent" />
-            <div className="absolute inset-0 bg-gradient-to-t from-dark/80 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-gradient-to-t from-dark/95 via-dark/75 to-transparent" />
+            {/* <div className="absolute inset-0 bg-gradient-to-t from-dark/80 via-transparent to-transparent" /> */}
 
             {/* Content */}
             <div className="relative container-custom pt-24 pb-20">
                 <div className="max-w-2xl">
-                    {/* Tag */}
-                    <div
-                        className={`inline-flex items-center gap-2 bg-primary/20 border border-primary/30 px-4 py-2 mb-6 transition-all duration-500 ${animating ? 'opacity-0 translate-y-4' : 'opacity-100 translate-y-0'
-                            }`}
-                    >
-                        <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                        <span className="text-primary text-sm font-semibold tracking-wider uppercase">
-                            {slide.tag}
-                        </span>
-                    </div>
 
                     {/* Title */}
                     <h1
