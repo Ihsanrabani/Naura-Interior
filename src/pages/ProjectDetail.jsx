@@ -26,31 +26,26 @@ function BeforeAfterSlider({ before, after }) {
             <img src={after} alt="Sesudah" className="absolute inset-0 w-full h-full object-cover" />
 
             {/* Before (clipped) */}
-            <div className="absolute inset-0 overflow-hidden" style={{ width: `${position}%` }}>
-                {/* <img src={before} alt="Sebelum" className="absolute inset-0 w-full h-full object-cover object-center" />s */}
-                <div
-                    className="absolute inset-0 w-[50vw]"
-                    style={{
-                        width: '50vw', // atau pakai ukuran container
-                        backgroundImage: `url(${before})`,
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
-                    }}
-                />
-            </div>
+            <img
+                src={before}
+                className="absolute inset-0 w-full h-full object-cover"
+                style={{
+                    clipPath: `inset(0 ${100 - position}% 0 0)`,
+                }}
+            />
 
             {/* Slider line */}
-            <div
-                className="absolute top-0 bottom-0 w-0.5 bg-white shadow-xl"
-                style={{ left: `${position}%` }}
-            >
-                <div className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-10 h-10 bg-white rounded-full shadow-xl flex items-center justify-center">
-                    <div className="flex items-center gap-0.5">
-                        <ChevronLeft size={10} className="text-dark" />
-                        <ChevronRight size={10} className="text-dark" />
+                <div
+                    className="absolute top-0 bottom-0 w-0.5 bg-white shadow-xl"
+                    style={{ left: `${position}%` }}
+                >
+                    <div className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-10 h-10 bg-white rounded-full shadow-xl flex items-center justify-center">
+                        <div className="flex items-center gap-0.5">
+                            <ChevronLeft size={10} className="text-dark" />
+                            <ChevronRight size={10} className="text-dark" />
+                        </div>
                     </div>
                 </div>
-            </div>
 
             {/* Labels */}
             <div className="absolute bottom-4 left-4 bg-dark/80 text-white text-xs px-2 py-1">Sebelum</div>
@@ -97,8 +92,6 @@ export default function ProjectDetail() {
         { icon: <MapPin size={16} />, label: 'Lokasi', value: project.location },
         { icon: <Calendar size={16} />, label: 'Tahun', value: project.year },
         { icon: <Clock size={16} />, label: 'Durasi', value: project.duration },
-        { icon: <Square size={16} />, label: 'Luas', value: project.area },
-        { icon: <DollarSign size={16} />, label: 'Nilai Proyek', value: project.budget },
         { icon: <User size={16} />, label: 'Klien', value: project.client },
     ]
 

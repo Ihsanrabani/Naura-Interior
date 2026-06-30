@@ -16,7 +16,7 @@ export const portfolioData = [
     location: "Tasikmalaya, Jawa Barat",
     year: "2025",
     duration: "3 Minggu",
-    budget: "Rp 45 Juta",
+    budget: "Rp 32 Juta",
     area: "12 m²",
     client: "Keluarga Bapak Hendra",
     description:
